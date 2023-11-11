@@ -1,10 +1,12 @@
 @font-face {
   font-family: "Spectral";
   src: url("./font/Spectral-Italic.ttf") format("truetype");
+  font-display: swap;
 }
 @font-face {
   font-family: "Inter";
   src: url("./font/Inter-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 body {
