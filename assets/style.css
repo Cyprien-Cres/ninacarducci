@@ -121,10 +121,6 @@ body {
 .gallery .nav {
   justify-content: center;
 }
-.item-column {
-  width: 33.33333333%;
-  height: 33.33333333%;
-}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
@@ -243,6 +239,7 @@ form {
   width: 70%;
   align-items: flex-start;
 }
+
 form input {
   width: 100%;
   background-color: transparent;
@@ -250,6 +247,7 @@ form input {
   height: 2.5em;
   margin-bottom: 20px;
 }
+
 form textarea {
   width: 100%;
   background-color: transparent;
@@ -263,6 +261,7 @@ input[type="submit"] {
   background-color: #beb45a;
   padding: 0.5em 1em;
 }
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
@@ -280,6 +279,7 @@ input[type="submit"] {
     width: 100%;
   }
 }
+
 @media all and (max-width: 1000px) {
   #about {
     flex-direction: column;
@@ -337,12 +337,7 @@ input[type="submit"] {
     z-index: -1;
   }
 }
-@media all and (max-width: 768px) {
-  .item-column {
-    width: 50%;
-    height: 33.33333333%;
-  }
-}
+
 @media all and (max-width: 650px) {
   .top-header {
     flex-direction: column;
@@ -378,11 +373,5 @@ input[type="submit"] {
   }
   .picture {
     width: 80%;
-  }
-}
-@media all and (max-width: 650px) {
-  .item-column {
-    width: 100%;
-    height: 100%;
   }
 }
