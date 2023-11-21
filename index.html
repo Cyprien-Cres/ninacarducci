@@ -17,7 +17,7 @@
 	<meta property="author" content="Nina Carducci">
 	<meta property="og:image" content="./assets/images/nina.webp">
 	<!-- Twitter Card data -->
-	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:card" content="./assets/images/nina.webp">
 	<meta name="twitter:site" content="@nina_carducci">
 	<meta name="twitter:title" content="Nina Carducci">
 	<meta name="twitter:description" content="Photographe portraits & événementiel">
@@ -25,28 +25,68 @@
 	<meta name="twitter:image:src" content="./assets/images/nina-small.webp">
 	<title>Nina Carducci</title>
 	<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Photograph",
-      "image": [
-        "./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-small.webp",
-        "./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-small.webp",
-        "./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-small.webp"
-       ],
-      "name": "Nina Carducci",
-      "url": "https://ninacarducci.github.io/",
-			"locationCreated": {
-				"@type": "City",
-				"address": {
-					"@type": "PostalAddress",
-					"streetAddress": "63 avenue Alsace Lorraine",
-					"postalCode": "33200",
-					"addressLocality": "Bordeaux",
-					"addressCountry": "France"
-				}
-    	}
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"image": [
+				"./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-small.webp",
+				"./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-small.webp",
+				"./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-small.webp"
+			],
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Bordeaux",
+				"addressRegion": "Nouvelle-Aquitaine",
+				"postalCode": "33200",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressCountry": "FR"
+			},
+			"priceRange": "50€ à 400€",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": 44.846806,
+				"longitude": -0.607187
+			  },
+			"name": "Nina Carducci",
+			"description": "Nina Carducci est une photographe basée sur Bordeaux qui propose des services de shooting, de retouches et d'album partout en France",
+			"openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+			"telephone": "05 56 67 78 89",
+			"url": "https://ninacarducci.github.io/",
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Photographies",
+				"itemListElement": [
+				  {
+					"@type": "OfferCatalog",
+					"name": "One-time services",
+					"itemListElement": [
+					  {
+						"@type": "Offer",
+						"itemOffered": {
+						  "@type": "Service",
+						  "name": "Shooting photo"
+						}
+					  },
+					  {
+						"@type": "Offer",
+						"itemOffered": {
+						  "@type": "Service",
+						  "name": "Retouches"
+						}
+					  },
+					  {
+						"@type": "Offer",
+						"itemOffered": {
+						  "@type": "Service",
+						  "name": "Album photos"
+						}
+					  }
+					]
+				  }
+				]
+			  }
 		}
-    </script>
+	</script>
 </head>
 
 <body>
